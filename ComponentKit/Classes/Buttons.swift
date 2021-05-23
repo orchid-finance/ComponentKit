@@ -4,6 +4,7 @@ import ThemeKit
 
 public enum ThemeButtonStyle {
     case primaryYellow
+    case primaryBlue
     case primaryGreen
     case primaryRed
     case primaryGray
@@ -254,6 +255,16 @@ extension ThemeButton {
             setBackgroundColor(.themeYellowD, blendColor: UIColor(white: 1, alpha: 0.4), forState: .normal)
             setBackgroundColor(.themeYellowD, forState: .highlighted)
             setBackgroundColor(.themeSteel20, forState: .disabled)
+        
+        case .primaryBlue:
+                applyPrimary()
+
+                setTitleColor(.black, for: .normal)
+                setTitleColor(.themeGray50, for: .disabled)
+
+                setBackgroundColor(.themeIssykBlue, blendColor: UIColor(white: 1, alpha: 0.4), forState: .normal)
+                setBackgroundColor(.themeIssykBlue, forState: .highlighted)
+                setBackgroundColor(.themeSteel20, forState: .disabled)
 
         case .primaryGreen:
             applyPrimary()
@@ -379,7 +390,7 @@ extension ThemeButton {
 
     private static func contentEdgeInsets(for style: ThemeButtonStyle) -> UIEdgeInsets {
         switch style {
-        case .primaryYellow, .primaryGreen, .primaryRed, .primaryGray, .primaryTransparent: return UIEdgeInsets(top: 15, left: .margin2x, bottom: 15, right: .margin2x)
+        case .primaryYellow, .primaryBlue, .primaryGreen, .primaryRed, .primaryGray, .primaryTransparent: return UIEdgeInsets(top: 15, left: .margin2x, bottom: 15, right: .margin2x)
         case .secondaryDefault, .secondaryTransparent: return UIEdgeInsets(top: 5.5, left: .margin4x, bottom: 5.5, right: .margin4x)
         case .secondaryTransparentIcon: return UIEdgeInsets(top: 5.5, left: .margin16 + .margin4, bottom: 5.5, right: .margin8)
         case .tertiary: return UIEdgeInsets(top: 5, left: 10, bottom: 5, right: 10)
@@ -389,7 +400,7 @@ extension ThemeButton {
 
     private static func titleFont(for style: ThemeButtonStyle) -> UIFont {
         switch style {
-        case .primaryYellow, .primaryGreen, .primaryRed, .primaryGray, .primaryTransparent: return .headline2
+        case .primaryYellow, primaryBlue, .primaryGreen, .primaryRed, .primaryGray, .primaryTransparent: return .headline2
         case .secondaryDefault, .secondaryTransparent, .secondaryTransparentIcon: return .subhead1
         case .tertiary: return .captionSB
         case .secondaryIcon: return .systemFont(ofSize: 1) // titleLabel should not affect button size, that is why we set smallest font
@@ -397,7 +408,7 @@ extension ThemeButton {
     }
 
     public static func height(style: ThemeButtonStyle? = nil) -> CGFloat {
-        let style = style ?? .primaryYellow                 // use as default primary sizes and insets
+        let style = style ?? .primaryBlue                 // use as default primary sizes and insets
 
         let insets = ThemeButton.contentEdgeInsets(for: style)
         let fontSize = round(ThemeButton.titleFont(for: style).lineHeight)
