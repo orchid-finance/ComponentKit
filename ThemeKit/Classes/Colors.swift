@@ -38,7 +38,7 @@ extension UIColor {
 }
 
 extension UIColor {
-    public static var themeForrest: UIColor { color(dark: .themeYellowD, light: .themeYellowL) }
+    public static var themeJacob: UIColor { color(dark: .themeYellowD, light: .themeYellowL) }
     public static var themeForrest: UIColor { color(dark: .themeForrestD, light: .themeForrestL) }
     public static var themeRemus: UIColor { color(dark: .themeGreenD, light: .themeGreenL) }
     public static var themeLucian: UIColor { color(dark: .themeRedD, light: .themeRedL) }
