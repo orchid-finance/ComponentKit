@@ -400,7 +400,7 @@ extension ThemeButton {
 
     private static func titleFont(for style: ThemeButtonStyle) -> UIFont {
         switch style {
-        case .primaryYellow, primaryBlue, .primaryGreen, .primaryRed, .primaryGray, .primaryTransparent: return .headline2
+        case .primaryYellow, .primaryBlue, .primaryGreen, .primaryRed, .primaryGray, .primaryTransparent: return .headline2
         case .secondaryDefault, .secondaryTransparent, .secondaryTransparentIcon: return .subhead1
         case .tertiary: return .captionSB
         case .secondaryIcon: return .systemFont(ofSize: 1) // titleLabel should not affect button size, that is why we set smallest font
