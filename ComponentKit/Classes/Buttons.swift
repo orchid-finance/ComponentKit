@@ -254,7 +254,7 @@ extension ThemeButton {
 
             setBackgroundColor(.themeYellowD, blendColor: UIColor(white: 1, alpha: 0.4), forState: .normal)
             setBackgroundColor(.themeYellowD, forState: .highlighted)
-            setBackgroundColor(.themeSteel20, forState: .disabled)
+            //setBackgroundColor(.themeSteel20, forState: .disabled)
         
         case .primaryBlue:
                 applyPrimary()
@@ -264,7 +264,7 @@ extension ThemeButton {
 
                 setBackgroundColor(.themeIssykBlue, blendColor: UIColor(white: 1, alpha: 0.4), forState: .normal)
                 setBackgroundColor(.themeIssykBlue, forState: .highlighted)
-                setBackgroundColor(.themeSteel20, forState: .disabled)
+                //setBackgroundColor(.themeSteel20, forState: .disabled)
 
         case .primaryGreen:
             applyPrimary()
