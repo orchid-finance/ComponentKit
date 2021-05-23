@@ -3,8 +3,8 @@ import UIExtensions
 extension UIColor {
     public static let themeYellowD = UIColor(hex: 0xffa800)
     public static let themeYellowL = UIColor(hex: 0xff8a00)
-    public static let themeForrestD = UIColor(hex: 0x00ffa8)
-    public static let themeForrestL = UIColor(hex: 0x00ffa8)
+    public static let themeForrestD = UIColor(hex: 0x05c46b)
+    public static let themeForrestL = UIColor(hex: 0x04ad5f)
     public static let themeGreenD = UIColor(hex: 0x05c46b)
     public static let themeGreenL = UIColor(hex: 0x04ad5f)
     public static let themeRedD = UIColor(hex: 0xff4820)
