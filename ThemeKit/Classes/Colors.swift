@@ -38,7 +38,7 @@ extension UIColor {
 }
 
 extension UIColor {
-    public static var themeJacob: UIColor { color(dark: .themeYellowD, light: .themeYellowL) }
+    public static var themeForrest: UIColor { color(dark: .themeYellowD, light: .themeYellowL) }
     public static var themeForrest: UIColor { color(dark: .themeForrestD, light: .themeForrestL) }
     public static var themeRemus: UIColor { color(dark: .themeGreenD, light: .themeGreenL) }
     public static var themeLucian: UIColor { color(dark: .themeRedD, light: .themeRedL) }
@@ -71,6 +71,6 @@ extension UIColor {
     public static var themeBackgroundFromGradient: UIColor { .themeTyler }
     public static var themeBackgroundToGradient: UIColor { .themeHelsing }
 
-    public static var themeInputFieldTintColor: UIColor { .themeJacob }
+    public static var themeInputFieldTintColor: UIColor { .themeForrest }
     public static var themeNavigationBarBackground: UIColor { UIColor.themeTyler96 }
 }

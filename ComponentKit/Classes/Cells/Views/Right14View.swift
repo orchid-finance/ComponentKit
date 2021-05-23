@@ -43,7 +43,7 @@ open class Right14View: UIView {
 
         stackView.addArrangedSubview(bottomTitleLabel)
         bottomTitleLabel.font = .caption
-        bottomTitleLabel.textColor = .themeJacob
+        bottomTitleLabel.textColor = .themeForrest
         bottomTitleLabel.setContentCompressionResistancePriority(.required, for: .horizontal)
 
         stackView.addArrangedSubview(bottomLabel)

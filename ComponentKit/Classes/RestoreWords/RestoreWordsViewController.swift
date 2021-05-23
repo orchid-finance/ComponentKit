@@ -34,7 +34,7 @@ open class RestoreWordsViewController: ThemeViewController {
         textView.layer.borderColor = UIColor.themeSteel20.cgColor
         textView.textColor = .themeOz
         textView.font = textViewFont
-        textView.tintColor = .themeJacob
+        textView.tintColor = .themeForrest
         textView.textContainerInset = UIEdgeInsets(top: textViewInset, left: textViewInset, bottom: textViewInset, right: textViewInset)
         textView.autocapitalizationType = .none
         textView.autocorrectionType = .no

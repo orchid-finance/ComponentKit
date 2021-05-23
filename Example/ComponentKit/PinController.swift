@@ -30,7 +30,7 @@ class PinController: ThemeViewController {
             maker.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(CGFloat.margin4x)
         }
         pinLabel.font = .headline2
-        pinLabel.textColor = .themeJacob
+        pinLabel.textColor = .themeForrest
         pinLabel.textAlignment = .center
 
         App.shared.pinKit.isPinSetObservable

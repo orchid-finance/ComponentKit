@@ -63,7 +63,7 @@ extension LanguageSettingsViewController: SectionsDataSource {
                                     cell.titleImage = ModuleKit.image(named: item.language)
                                     cell.title = item.name
                                     cell.subtitle = item.nativeName
-                                    cell.valueImage = item.selected ? ComponentKit.image(named: "check_1_20")?.tinted(with: .themeJacob) : nil
+                                    cell.valueImage = item.selected ? ComponentKit.image(named: "check_1_20")?.tinted(with: .themeForrest) : nil
                                 },
                                 action: { [weak self] _ in
                                     self?.delegate.didSelect(index: index)

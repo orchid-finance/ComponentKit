@@ -5,7 +5,7 @@ import SnapKit
 class ColorsController: ThemeViewController {
 
     private let colors: [Color] = [
-        Color(name: "Jacob", value: .themeJacob),
+        Color(name: "Jacob", value: .themeForrest),
         Color(name: "Remus", value: .themeRemus),
         Color(name: "Lucian", value: .themeLucian),
         Color(name: "Oz", value: .themeOz),

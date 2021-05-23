@@ -56,19 +56,19 @@ class CellsController: ThemeViewController {
     private func configureCells() {
         aCell.set(backgroundStyle: .lawrence, isFirst: true)
         aCell.titleImage = UIImage(named: "Cell Icon")?.withRenderingMode(.alwaysTemplate)
-        aCell.titleImageTintColor = .themeJacob
+        aCell.titleImageTintColor = .themeForrest
         aCell.title = "A - Title"
-        aCell.titleColor = .themeJacob
+        aCell.titleColor = .themeForrest
         aCell.set(titleImageSize: .iconSize24)
 
         a1Cell.set(backgroundStyle: .lawrence)
-        a1Cell.titleImageTintColor = .themeJacob
+        a1Cell.titleImageTintColor = .themeForrest
         a1Cell.titleImage = UIImage(named: "Cell Icon")?.withRenderingMode(.alwaysTemplate)
         a1Cell.title = "A1 - Title"
 
         a5Cell.set(backgroundStyle: .lawrence)
         a5Cell.titleImage = UIImage(named: "Cell Icon")?.withRenderingMode(.alwaysTemplate)
-        a5Cell.titleImageTintColor = .themeJacob
+        a5Cell.titleImageTintColor = .themeForrest
         a5Cell.title = "A5 - Title A5 - Title A5 - Title"
         a5Cell.value = "Some Value"
 
@@ -95,7 +95,7 @@ class CellsController: ThemeViewController {
 
         c6Cell.set(backgroundStyle: .lawrence)
         c6Cell.titleImage = UIImage(named: "Cell Icon")?.withRenderingMode(.alwaysTemplate)
-        c6Cell.titleImageTintColor = .themeJacob
+        c6Cell.titleImageTintColor = .themeForrest
         c6Cell.title = "C6 - Title"
         c6Cell.titleImageAction = { print("C6 - Title Image Tap") }
         c6Cell.value = "Some Value"
@@ -124,7 +124,7 @@ class CellsController: ThemeViewController {
 
         g12Cell.set(backgroundStyle: .lawrence, isFirst: true)
         g12Cell.leftImage = UIImage(named: "Cell Icon")?.withRenderingMode(.alwaysTemplate)
-        g12Cell.leftImageTintColor = .themeJacob
+        g12Cell.leftImageTintColor = .themeForrest
         g12Cell.topText = "G12 - Title"
         g12Cell.bottomText = "Subtitle"
         g12Cell.leftBadgeText = "123"
@@ -133,7 +133,7 @@ class CellsController: ThemeViewController {
         g12Cell.valueBottomText = "Bottom"
 
         g14Cell.set(backgroundStyle: .lawrence)
-        g14Cell.leftImageTintColor = .themeJacob
+        g14Cell.leftImageTintColor = .themeForrest
         g14Cell.leftImage = UIImage(named: "Cell Icon")?.withRenderingMode(.alwaysTemplate)
         g14Cell.topText = "G14 - Title"
         g14Cell.bottomText = "Subtitle"
@@ -144,7 +144,7 @@ class CellsController: ThemeViewController {
         g14Cell.secondaryValueText = "Value"
 
         g19Cell.set(backgroundStyle: .lawrence)
-        g19Cell.titleImage = UIImage(named: "Cell Icon")?.tinted(with: .themeJacob)
+        g19Cell.titleImage = UIImage(named: "Cell Icon")?.tinted(with: .themeForrest)
         g19Cell.title = "G19 - Title"
         g19Cell.subtitle = "Subtitle"
         g19Cell.valueButtonImage = UIImage(named: "icon_20")
@@ -152,7 +152,7 @@ class CellsController: ThemeViewController {
         g19Cell.onTapValue = { print("Tap G19") }
 
         g21Cell.set(backgroundStyle: .lawrence, isLast: true)
-        g21Cell.titleImage = UIImage(named: "Cell Icon")?.tinted(with: .themeJacob)
+        g21Cell.titleImage = UIImage(named: "Cell Icon")?.tinted(with: .themeForrest)
         g21Cell.title = "G21 - Title G21 - Title G21 - Title G21 - Title G21 - Title G21 - Title"
         g21Cell.subtitle = "Subtitle"
         g21Cell.rightButtonImage = UIImage(named: "icon_20")

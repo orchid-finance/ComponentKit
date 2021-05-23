@@ -20,7 +20,7 @@ open class ThemeNavigationController: UINavigationController {
     private func commonInit() {
         navigationBar.prefersLargeTitles = true
         modalPresentationStyle = .overFullScreen
-        navigationBar.tintColor = .themeJacob
+        navigationBar.tintColor = .themeForrest
     }
 
     override open var childForStatusBarStyle: UIViewController? {
@@ -70,7 +70,7 @@ open class ThemeTabBarController: UITabBarController {
 
         tabBar.barTintColor = .clear
 
-        tabBar.tintColor = .themeJacob
+        tabBar.tintColor = .themeForrest
         tabBar.unselectedItemTintColor = .themeGray
 
         updateUITheme()
