@@ -35,7 +35,7 @@ open class D20Cell: BaseSelectableThemeCell {
         set { rightView.badgeColor = newValue }
     }
 
-    public var image: UIImage? {
+    public var images: UIImage? {
         get { rightView.image }
         set { rightView.image = newValue }
     }
